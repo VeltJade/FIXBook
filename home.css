@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffb5b5;
+}
+.header {
+    overflow: hidden;
+    background-color: #feaeae;
+    /*padding: 20px 10px;*/
+}
+.header img{
+    height: 50px;
+    width: 50px;
+}
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Itim';
+    font-weight: bold;
+    
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #bcc2fc;
+    color: #212121;
+    border-radius: 10px;
+  }
+  
+  .header a.active {
+    background-color: #c4c9fc;
+    color: #212121;
+    border-radius: 10px;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+  /*Search Bar*/
+.search-bar {
+  height: 10vh;
+  background-color: #f15252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+/*logo and banner*/
+
+.logo-banner{
+    background-color: #ffd9d9;
+    height: 50vh;
+    text-align: center;
+    padding: 80px 20px;
+}
+.logo-banner h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.logo-banner h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #7f8c8d;
+}
+
+/*Footer*/
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #210453;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #content{
+    color: rgb(231, 114, 5);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+  }
